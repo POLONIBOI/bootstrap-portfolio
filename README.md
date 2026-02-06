@@ -4,7 +4,7 @@ A fully responsive portfolio website built with Bootstrap 5 and custom CSS. No J
 
 ## Live Site
 
-> [View the live site here](#) *(link will be updated after deployment)*
+> [View the live site here](https://poloniboi.github.io/bootstrap-portfolio/)
 
 ## Sections
 
