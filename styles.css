@@ -11,18 +11,18 @@
   --text-primary: #212529;
   --text-secondary: #6c757d;
   --text-muted: #6c757d;
-  --accent: #5B8C85;
-  --accent-hover: #4A7A73;
+  --accent: #5EAD65;
+  --accent-hover: #4E9A55;
   --hero-overlay: rgba(0, 0, 0, 0.65);
   --navbar-bg: rgba(255, 255, 255, 0.95);
   --navbar-text: #212529;
   --footer-bg: #1a1a2e;
   --footer-text: #ffffffcc;
   --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  --highlight-bg: #e4efed;
-  --highlight-text: #5B8C85;
+  --highlight-bg: #e8f5e9;
+  --highlight-text: #5EAD65;
   --social-color: #495057;
-  --social-hover: #5B8C85;
+  --social-hover: #5EAD65;
   --border-color: #dee2e6;
   --form-bg: #ffffff;
 }
@@ -36,18 +36,18 @@
     --text-primary: #e8e8e8;
     --text-secondary: #a8a8b3;
     --text-muted: #8888a0;
-    --accent: #7AADA5;
-    --accent-hover: #6B9E96;
+    --accent: #7BC67E;
+    --accent-hover: #6BB86E;
     --hero-overlay: rgba(0, 0, 0, 0.75);
     --navbar-bg: rgba(15, 15, 26, 0.95);
     --navbar-text: #e8e8e8;
     --footer-bg: #0a0a15;
     --footer-text: #ffffffcc;
     --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-    --highlight-bg: #1e3835;
-    --highlight-text: #7AADA5;
+    --highlight-bg: #1e3525;
+    --highlight-text: #7BC67E;
     --social-color: #a8a8b3;
-    --social-hover: #7AADA5;
+    --social-hover: #7BC67E;
     --border-color: #2a2a4a;
     --form-bg: #1a1a2e;
   }
@@ -297,6 +297,16 @@ body {
   font-weight: 500;
 }
 
+.badge-html { background-color: #E8734A !important; }
+.badge-css { background-color: #5B9BD5 !important; }
+.badge-bootstrap { background-color: #7952B3 !important; }
+.badge-js { background-color: #E5A50A !important; color: #1a1a1a !important; }
+.badge-react { background-color: #22B8CF !important; color: #1a1a1a !important; }
+.badge-python { background-color: #3776AB !important; }
+.badge-django { background-color: #44B78B !important; }
+.badge-node { background-color: #68A063 !important; }
+.badge-express { background-color: #6366F1 !important; }
+
 /* ---------- Projects Section ---------- */
 .projects-section {
   background-color: var(--bg-primary);
@@ -344,12 +354,12 @@ body {
   background-color: var(--accent);
   color: #fff;
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(91, 140, 133, 0.3);
+  box-shadow: 0 6px 16px rgba(94, 173, 101, 0.3);
 }
 
 .form-control:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 0.2rem rgba(91, 140, 133, 0.15);
+  box-shadow: 0 0 0 0.2rem rgba(94, 173, 101, 0.15);
 }
 
 /* ---------- Footer ---------- */
