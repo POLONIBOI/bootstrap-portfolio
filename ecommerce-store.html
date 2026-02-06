@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Store | Muammar Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md sticky-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <i class="bi bi-code-slash me-1"></i>Muammar
+        </a>
+        <a href="index.html#projects" class="btn btn-outline-secondary rounded-pill btn-sm">
+          <i class="bi bi-arrow-left me-1"></i>Back to Portfolio
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+
+            <div class="mb-4">
+              <span class="highlight-label">Project Details</span>
+            </div>
+
+            <h1 class="fw-bold mb-3">E-Commerce Store</h1>
+            <p class="lead text-muted mb-4">A fully functional online store with product listings, shopping cart, checkout flow, and order management — built with Node.js and Express on the back end.</p>
+
+            <img
+              src="https://placehold.co/900x450/533483/e94560?text=E-Commerce+Store+Preview"
+              alt="E-Commerce Store application preview"
+              class="img-fluid rounded-4 shadow-sm mb-5 w-100"
+            >
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-3"><i class="bi bi-info-circle me-2 text-primary"></i>Overview</h4>
+                <p>This E-Commerce Store was built as a capstone project to demonstrate full-stack JavaScript development. The application provides a complete online shopping experience — from browsing products and managing a cart to placing orders. The back end is powered by Node.js with Express for routing and middleware, while MongoDB handles data persistence for products, users, and orders.</p>
+                <p class="mb-0">The front end uses EJS templates with Bootstrap for a clean, responsive shopping interface. Key features include user account management, product search and filtering by category, a persistent shopping cart, and a multi-step checkout flow with order confirmation.</p>
+              </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                  <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-code-square me-2 text-primary"></i>Tech Stack</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">Node.js</span> Server-side JavaScript runtime</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">Express</span> Web framework and routing</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">MongoDB</span> NoSQL document database</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">EJS</span> Server-side template engine</li>
+                      <li class="mb-0"><span class="badge bg-primary rounded-pill me-2">Bootstrap</span> Responsive front-end framework</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                  <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-star me-2 text-primary"></i>Key Features</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Product catalogue with categories</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Shopping cart with quantity management</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>User registration and authentication</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Multi-step checkout process</li>
+                      <li class="mb-0"><i class="bi bi-check-circle text-primary me-2"></i>Order history and tracking</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-folder2-open me-2 text-primary"></i>Project Structure</h5>
+                <pre class="bg-dark text-light p-3 rounded-3 mb-0"><code>ecommerce-store/
+  ├── server.js
+  ├── package.json
+  ├── .env
+  ├── config/
+  │   └── database.js
+  ├── models/
+  │   ├── Product.js
+  │   ├── User.js
+  │   ├── Cart.js
+  │   └── Order.js
+  ├── routes/
+  │   ├── products.js
+  │   ├── cart.js
+  │   ├── auth.js
+  │   └── orders.js
+  ├── middleware/
+  │   └── auth.js
+  ├── views/
+  │   ├── layouts/
+  │   │   └── main.ejs
+  │   ├── products/
+  │   │   ├── index.ejs
+  │   │   └── detail.ejs
+  │   ├── cart.ejs
+  │   └── checkout.ejs
+  └── public/
+      ├── css/
+      │   └── styles.css
+      └── images/</code></pre>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-diagram-3 me-2 text-primary"></i>Architecture</h5>
+                <p>The application follows an MVC pattern with Express handling routing and controller logic. <strong>Mongoose</strong> models define schemas for Products, Users, Carts, and Orders, each with built-in validation. Routes are split into modular files for products, cart management, authentication, and order processing.</p>
+                <p class="mb-0">Authentication uses <strong>bcrypt</strong> for password hashing and <strong>express-session</strong> for session management. The cart persists in the database so users can return and continue shopping. The checkout flow validates stock availability before confirming an order and updates inventory counts accordingly.</p>
+              </div>
+            </div>
+
+            <div class="text-center pt-3">
+              <a href="index.html#projects" class="btn btn-primary rounded-pill px-5 btn-lg">
+                <i class="bi bi-arrow-left me-2"></i>Back to All Projects
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4 text-center">
+    <div class="container">
+      <p class="mb-0">Developed by <strong>Muammar</strong> using Bootstrap, for portfolio purposes.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

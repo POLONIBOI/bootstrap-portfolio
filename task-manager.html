@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager | Muammar Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md sticky-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <i class="bi bi-code-slash me-1"></i>Muammar
+        </a>
+        <a href="index.html#projects" class="btn btn-outline-secondary rounded-pill btn-sm">
+          <i class="bi bi-arrow-left me-1"></i>Back to Portfolio
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+
+            <div class="mb-4">
+              <span class="highlight-label">Project Details</span>
+            </div>
+
+            <h1 class="fw-bold mb-3">Task Manager</h1>
+            <p class="lead text-muted mb-4">A full-stack task management application with user authentication, CRUD operations, task categories, and deadline tracking — built with Python and Django.</p>
+
+            <img
+              src="https://placehold.co/900x450/16213e/0f3460?text=Task+Manager+Preview"
+              alt="Task Manager application preview"
+              class="img-fluid rounded-4 shadow-sm mb-5 w-100"
+            >
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-3"><i class="bi bi-info-circle me-2 text-primary"></i>Overview</h4>
+                <p>This Task Manager was developed as a full-stack project to deepen my understanding of back-end development with Python and the Django framework. The application allows users to register, log in, and manage their tasks through a clean, intuitive interface. Each user has a private workspace where they can create, read, update, and delete tasks.</p>
+                <p class="mb-0">Tasks can be organised into categories such as Work, Personal, and Study. Each task supports a priority level (Low, Medium, High), a due date, and a completion status. The project uses Django's built-in authentication system for secure user management and leverages Django's ORM for database operations with SQLite.</p>
+              </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                  <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-code-square me-2 text-primary"></i>Tech Stack</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">Python</span> Back-end programming language</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">Django</span> Web framework with MVC pattern</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">SQLite</span> Lightweight relational database</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">HTML/CSS</span> Front-end templates</li>
+                      <li class="mb-0"><span class="badge bg-primary rounded-pill me-2">Bootstrap</span> Responsive UI components</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                  <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-star me-2 text-primary"></i>Key Features</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>User registration and login</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Full CRUD operations on tasks</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Task categories and priority levels</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Due date tracking with overdue alerts</li>
+                      <li class="mb-0"><i class="bi bi-check-circle text-primary me-2"></i>Search and filter functionality</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-folder2-open me-2 text-primary"></i>Project Structure</h5>
+                <pre class="bg-dark text-light p-3 rounded-3 mb-0"><code>task-manager-django/
+  ├── manage.py
+  ├── requirements.txt
+  ├── taskmanager/
+  │   ├── settings.py
+  │   ├── urls.py
+  │   └── wsgi.py
+  ├── tasks/
+  │   ├── models.py
+  │   ├── views.py
+  │   ├── urls.py
+  │   ├── forms.py
+  │   └── admin.py
+  ├── templates/
+  │   ├── base.html
+  │   ├── task_list.html
+  │   ├── task_form.html
+  │   └── registration/
+  │       ├── login.html
+  │       └── register.html
+  └── static/
+      └── css/
+          └── styles.css</code></pre>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-diagram-3 me-2 text-primary"></i>Architecture</h5>
+                <p>The application follows Django's Model-View-Template (MVT) architecture. The <strong>Task</strong> model defines fields for title, description, category, priority, due date, and completion status — each linked to a user via a foreign key. Class-based views handle list, create, update, and delete operations with built-in permission checks to ensure users can only access their own tasks.</p>
+                <p class="mb-0">Django's template engine renders the front-end with Bootstrap for styling. Forms use Django's form validation for server-side input checking, and the authentication middleware secures all task-related routes.</p>
+              </div>
+            </div>
+
+            <div class="text-center pt-3">
+              <a href="index.html#projects" class="btn btn-primary rounded-pill px-5 btn-lg">
+                <i class="bi bi-arrow-left me-2"></i>Back to All Projects
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4 text-center">
+    <div class="container">
+      <p class="mb-0">Developed by <strong>Muammar</strong> using Bootstrap, for portfolio purposes.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

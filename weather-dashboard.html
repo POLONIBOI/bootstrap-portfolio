@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard | Muammar Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md sticky-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+          <i class="bi bi-code-slash me-1"></i>Muammar
+        </a>
+        <a href="index.html#projects" class="btn btn-outline-secondary rounded-pill btn-sm">
+          <i class="bi bi-arrow-left me-1"></i>Back to Portfolio
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+
+            <div class="mb-4">
+              <span class="highlight-label">Project Details</span>
+            </div>
+
+            <h1 class="fw-bold mb-3">Weather Dashboard</h1>
+            <p class="lead text-muted mb-4">A dynamic weather application that fetches real-time data, displays 5-day forecasts, and features location-based search with an intuitive user interface.</p>
+
+            <img
+              src="https://placehold.co/900x450/0f3460/e94560?text=Weather+Dashboard+Preview"
+              alt="Weather Dashboard application preview"
+              class="img-fluid rounded-4 shadow-sm mb-5 w-100"
+            >
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-3"><i class="bi bi-info-circle me-2 text-primary"></i>Overview</h4>
+                <p>This Weather Dashboard was built as a front-end project to practice working with external APIs and managing dynamic state in React. The application connects to the OpenWeatherMap API to provide real-time weather data for any city worldwide. Users can search for locations, view current conditions including temperature, humidity, and wind speed, and browse a detailed 5-day forecast with daily highs and lows.</p>
+                <p class="mb-0">The project showcases component-based architecture, asynchronous data fetching, responsive design, and conditional rendering based on API responses. Error handling ensures a smooth user experience even when network issues occur.</p>
+              </div>
+            </div>
+
+            <div class="row g-4 mb-4">
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                  <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-code-square me-2 text-primary"></i>Tech Stack</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">React</span> Component-based UI framework</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">JavaScript</span> ES6+ application logic</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">CSS3</span> Custom responsive styling</li>
+                      <li class="mb-2"><span class="badge bg-primary rounded-pill me-2">REST API</span> OpenWeatherMap integration</li>
+                      <li class="mb-0"><span class="badge bg-primary rounded-pill me-2">Vite</span> Build tool and dev server</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card border-0 shadow-sm rounded-4 h-100">
+                  <div class="card-body p-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-star me-2 text-primary"></i>Key Features</h5>
+                    <ul class="list-unstyled mb-0">
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Real-time weather data fetching</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>5-day forecast with daily breakdown</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>City search with autocomplete</li>
+                      <li class="mb-2"><i class="bi bi-check-circle text-primary me-2"></i>Dynamic weather icons and backgrounds</li>
+                      <li class="mb-0"><i class="bi bi-check-circle text-primary me-2"></i>Responsive mobile-first design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 shadow-sm rounded-4 mb-4">
+              <div class="card-body p-4">
+                <h5 class="fw-bold mb-3"><i class="bi bi-folder2-open me-2 text-primary"></i>Project Structure</h5>
+                <pre class="bg-dark text-light p-3 rounded-3 mb-0"><code>weather-dashboard/
+  ├── public/
+  │   └── index.html
+  ├── src/
+  │   ├── components/
+  │   │   ├── SearchBar.jsx
+  │   │   ├── CurrentWeather.jsx
+  │   │   ├── ForecastCard.jsx
+  │   │   └── WeatherIcon.jsx
+  │   ├── services/
+  │   │   └── weatherApi.js
+  │   ├── styles/
+  │   │   └── App.css
+  │   ├── App.jsx
+  │   └── main.jsx
+  ├── package.json
+  └── vite.config.js</code></pre>
+              </div>
+            </div>
+
+            <div class="text-center pt-3">
+              <a href="index.html#projects" class="btn btn-primary rounded-pill px-5 btn-lg">
+                <i class="bi bi-arrow-left me-2"></i>Back to All Projects
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer py-4 text-center">
+    <div class="container">
+      <p class="mb-0">Developed by <strong>Muammar</strong> using Bootstrap, for portfolio purposes.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

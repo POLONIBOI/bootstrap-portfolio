@@ -11,18 +11,18 @@
   --text-primary: #212529;
   --text-secondary: #6c757d;
   --text-muted: #6c757d;
-  --accent: #0d6efd;
-  --accent-hover: #0b5ed7;
+  --accent: #5B8C85;
+  --accent-hover: #4A7A73;
   --hero-overlay: rgba(0, 0, 0, 0.65);
   --navbar-bg: rgba(255, 255, 255, 0.95);
   --navbar-text: #212529;
   --footer-bg: #1a1a2e;
   --footer-text: #ffffffcc;
   --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
-  --highlight-bg: #e8f0fe;
-  --highlight-text: #0d6efd;
+  --highlight-bg: #e4efed;
+  --highlight-text: #5B8C85;
   --social-color: #495057;
-  --social-hover: #0d6efd;
+  --social-hover: #5B8C85;
   --border-color: #dee2e6;
   --form-bg: #ffffff;
 }
@@ -36,18 +36,18 @@
     --text-primary: #e8e8e8;
     --text-secondary: #a8a8b3;
     --text-muted: #8888a0;
-    --accent: #4d8df7;
-    --accent-hover: #3a7ae6;
+    --accent: #7AADA5;
+    --accent-hover: #6B9E96;
     --hero-overlay: rgba(0, 0, 0, 0.75);
     --navbar-bg: rgba(15, 15, 26, 0.95);
     --navbar-text: #e8e8e8;
     --footer-bg: #0a0a15;
     --footer-text: #ffffffcc;
     --card-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
-    --highlight-bg: #1a2744;
-    --highlight-text: #4d8df7;
+    --highlight-bg: #1e3835;
+    --highlight-text: #7AADA5;
     --social-color: #a8a8b3;
-    --social-hover: #4d8df7;
+    --social-hover: #7AADA5;
     --border-color: #2a2a4a;
     --form-bg: #1a1a2e;
   }
@@ -344,12 +344,12 @@ body {
   background-color: var(--accent);
   color: #fff;
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(13, 110, 253, 0.3);
+  box-shadow: 0 6px 16px rgba(91, 140, 133, 0.3);
 }
 
 .form-control:focus {
   border-color: var(--accent);
-  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+  box-shadow: 0 0 0 0.2rem rgba(91, 140, 133, 0.15);
 }
 
 /* ---------- Footer ---------- */
@@ -366,6 +366,15 @@ body {
 
 .site-footer strong {
   color: #fff;
+}
+
+/* ---------- Bootstrap Utility Overrides ---------- */
+.bg-primary {
+  background-color: var(--accent) !important;
+}
+
+.text-primary {
+  color: var(--accent) !important;
 }
 
 /* ---------- Buttons ---------- */

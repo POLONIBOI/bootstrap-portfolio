@@ -1,0 +1,102 @@
+ASSIGNMENT: “Clone Your Future” - Bootstrap Portfolio 
+
+This portfolio is your future brag sheet, the one you’ll be sliding into company inboxes and showing off on LinkedIn. Think of it like a Pokémon:
+
+it evolves as you do. Every new skill you unlock, every project you build, every shiny feature you code, it all belongs here. Don’t let it gather dust. Keep feeding it fresh projects from this course (and the ones you’ll tackle later). The more you update it, the stronger it gets like turning your “student portfolio” into a “hire-me-now” machine.
+
+📝 Tasks & Marks (100)
+
+1) Hero Section (20)
+
+Recreate the full-bleed hero with center text:
+Spec
+Full-width background image with a dark overlay so text is readable.
+Centered headline: I am {Your Name}.
+Sub-headline: role (e.g., Entrepreneur, Web Developer).
+Sticky top navbar: Portfolio logo left; Home / About Me / Projects / Contact right; current link has an active underline.
+Scales beautifully from 360px → 4K.
+Scoring (20)
+Layout & responsiveness (8)
+Overlay & readable contrast (6)
+Navbar/active state & skip-to-content link (4)
+Typography polish (2)
+2) About Me Card (20)
+
+Match the two-column card look.
+Spec
+White card with subtle shadow and rounded corners inside a light page background.
+Left column: profile image, contact details (Name, Profile, Phone, Email).
+Skills badges (Bootstrap badges) for tools/tech (HTML, CSS, Bootstrap, etc.).
+Right column: “About me” heading on a pale highlight label; concise paragraph (≤ 160 words) — no memoirs.
+Scoring (20)
+Structure & spacing (8)
+Badges grid and hierarchy (5)
+Highlight label styling (3)
+Copy clarity (4)
+
+3) Projects Grid (30)
+
+Recreate the 3-across card grid with CTAs.
+Spec
+Grid: 3 columns (lg), 2 (md), 1 (sm). At least 6 projects (Put the real ones Tesla, Netflix, Youtube and make up 3)
+Each card:
+Wide banner image on top (object-fit cover).
+Title + tiny subtitle (e.g., Built with HTML and CSS).
+Two buttons: View Website (primary) and a small code icon button (outline).
+Spacing between rows matches the screenshot’s airiness.Add the actual projects you have worked on till date.
+
+Scoring (30)
+Responsive grid correctness (10)
+Card composition & consistent heights (8)
+Buttons styling & alignment (6)
+Image handling & alt text (6)
+
+4) Contact Section (20)
+
+Copy the “Let’s connect” vibe.
+Spec
+Centered heading: Let’s connect with the same pale highlight label.
+One-line invite sentence underneath.
+Row of social icons (Instagram, GitHub, LinkedIn) using Bootstrap Icons.
+Clean form with fields: Email Address, Name, Subject, Message, and Submit button.
+HTML validation only (required, type="email"). No backend.
+Scoring (20)
+Visual hierarchy & spacing (8)
+Icon row alignment (4)
+Form accessibility (labels, focus states) (6)
+Button style & hover (2)
+
+5) Footer (10)
+Dark footer bar with tiny centered text: Developed by {Your Name} using Bootstrap, for portfolio purposes.
+Ensure contrast and consistent padding.
+Scoring (10)
+Visual consistency (6)
+Contrast & readability (4)
+
+🧪 Bonus (up to +10)
+
+Pick up one from below :
+Print-ready résumé view (clean one-page print using @media print).
+Auto dark mode using prefers-color-scheme + CSS variables.
+
+🚦 Rules of the Road
+✅ Bootstrap 5 CSS (CDN) + your own styles.css.
+✅ Native HTML features only: <details>, <summary>, :target, anchors.
+🚫 No JavaScript (including Bootstrap JS).
+✅ Your own images or license-free placeholders (proper alt text).
+✅ Semantic landmarks: header, nav, main, section, footer.
+
+✅ Submission Checklist
+Live link (Netlify or GitHub Pages)
+GitHub repo with README (sections implemented, any bonus, image credits)
+🎥 Loom Walkthrough (≤ 5 min) - No video  = 0 marks (Just trying to get you all comfortable in front of the camera 😛)
+Pretend
+you’re applying for a WebSite Designer role and this portfolio is your ticket in. Your video should feel like a mini job interview  keep it
+professional, but add your own flair.
+🎯 Rubric (quick view)
+Hero accuracy & navbar (20)
+About card & badges (20)
+Projects grid & cards (30)
+Contact section & icons (20)
+Footer polish (10)
+Bonus (+10)

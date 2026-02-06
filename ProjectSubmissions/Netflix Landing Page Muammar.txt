@@ -1,0 +1,2 @@
+GitHub Repo: https://github.com/POLONIBOI/netflix-landing-page
+Netlify Live Link: nephlix-za.netlify.app
