@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muammar | Full-Stack Developer Portfolio</title>
+
+  <!-- Bootstrap 5 CSS (no JS) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Skip to content (accessibility) -->
+  <a class="skip-link visually-hidden-focusable" href="#main-content">Skip to main content</a>
+
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="navbar navbar-expand-md sticky-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+          <i class="bi bi-code-slash me-1"></i>Muammar
+        </a>
+
+        <!-- Toggler for mobile — uses checkbox hack, no JS -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Toggle navigation">
+        <label for="nav-toggle" class="navbar-toggler" aria-controls="navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </label>
+
+        <div class="collapse navbar-collapse nav-menu" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main id="main-content">
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="hero" class="hero-section d-flex align-items-center justify-content-center text-center text-white">
+      <div class="container position-relative z-1">
+        <h1 class="display-2 fw-bold mb-3">I am Muammar</h1>
+        <p class="lead fs-4 mb-4">Full-Stack Developer | Building the Web, One Line at a Time</p>
+        <a href="#projects" class="btn btn-primary btn-lg px-5 rounded-pill">View My Work</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ME SECTION ===== -->
+    <section id="about" class="about-section py-5">
+      <div class="container">
+        <div class="card shadow rounded-4 border-0 overflow-hidden">
+          <div class="card-body p-4 p-lg-5">
+            <div class="row g-4 align-items-start">
+
+              <!-- Left Column: Photo + Contact + Skills -->
+              <div class="col-lg-4 text-center text-lg-start">
+                <div class="mb-4">
+                  <img
+                    src="https://ui-avatars.com/api/?name=Muammar&size=200&background=0d6efd&color=fff&rounded=true&bold=true"
+                    alt="Profile photo of Muammar, Full-Stack Developer"
+                    class="rounded-circle img-fluid profile-img mb-3"
+                    width="180"
+                    height="180"
+                  >
+                </div>
+
+                <ul class="list-unstyled contact-details mb-4">
+                  <li class="mb-2">
+                    <i class="bi bi-person-fill me-2 text-primary"></i>
+                    <strong>Name:</strong> Muammar
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-briefcase-fill me-2 text-primary"></i>
+                    <strong>Profile:</strong> Full-Stack Developer
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-telephone-fill me-2 text-primary"></i>
+                    <strong>Phone:</strong> 064 133 8930
+                  </li>
+                  <li class="mb-2">
+                    <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                    <strong>Email:</strong> muammarras@gmail.com
+                  </li>
+                </ul>
+
+                <div class="skills-badges">
+                  <h6 class="fw-semibold mb-2">Skills</h6>
+                  <span class="badge rounded-pill bg-primary me-1 mb-2">HTML</span>
+                  <span class="badge rounded-pill bg-primary me-1 mb-2">CSS</span>
+                  <span class="badge rounded-pill bg-primary me-1 mb-2">Bootstrap</span>
+                  <span class="badge rounded-pill bg-primary me-1 mb-2">JavaScript</span>
+                  <span class="badge rounded-pill bg-info text-dark me-1 mb-2">React</span>
+                  <span class="badge rounded-pill bg-success me-1 mb-2">Python</span>
+                  <span class="badge rounded-pill bg-success me-1 mb-2">Django</span>
+                  <span class="badge rounded-pill bg-warning text-dark me-1 mb-2">Node.js</span>
+                  <span class="badge rounded-pill bg-warning text-dark me-1 mb-2">Express</span>
+                </div>
+              </div>
+
+              <!-- Right Column: About Heading + Bio -->
+              <div class="col-lg-8">
+                <div class="mb-3">
+                  <span class="highlight-label">About me</span>
+                </div>
+                <h2 class="fw-bold mb-4">A Passionate Full-Stack Developer Based in South Africa</h2>
+                <p class="fs-5 lh-lg">
+                  Hi, I'm Muammar — a dedicated full-stack developer with a passion for building clean,
+                  responsive, and user-friendly web applications. I enjoy working across the entire
+                  development stack, from crafting pixel-perfect front-end interfaces with HTML, CSS,
+                  and React to engineering robust back-end systems using Python, Django, and Node.js.
+                </p>
+                <p class="fs-5 lh-lg">
+                  I'm constantly learning new technologies and pushing myself to grow as a developer.
+                  Whether it's cloning popular websites to sharpen my skills or building full-stack
+                  applications from scratch, I believe every project is an opportunity to improve.
+                  My goal is to create digital experiences that are both beautiful and functional.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="projects-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="highlight-label">My Work</span>
+          <h2 class="fw-bold mt-3">Featured Projects</h2>
+          <p class="text-muted mx-auto" style="max-width: 600px;">
+            A selection of projects I've built to sharpen my skills and showcase my abilities.
+          </p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Project 1: Tesla Clone -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden project-card">
+              <img
+                src="https://placehold.co/600x340/1a1a2e/e94560?text=Tesla+Clone"
+                class="card-img-top project-img"
+                alt="Screenshot of Tesla homepage clone built with HTML and CSS"
+              >
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Tesla Clone</h5>
+                <p class="card-text text-muted">Built with HTML and CSS</p>
+                <p class="card-text small">A pixel-perfect recreation of the Tesla homepage featuring responsive layouts, smooth scrolling sections, and modern design patterns.</p>
+                <div class="mt-auto pt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-primary rounded-pill flex-grow-1">View Website</a>
+                  <a href="#" class="btn btn-outline-secondary rounded-pill" aria-label="View Tesla Clone source code">
+                    <i class="bi bi-code-slash"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Netflix Clone -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden project-card">
+              <img
+                src="https://placehold.co/600x340/141414/e50914?text=Netflix+Clone"
+                class="card-img-top project-img"
+                alt="Screenshot of Netflix homepage clone built with HTML and CSS"
+              >
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Netflix Clone</h5>
+                <p class="card-text text-muted">Built with HTML and CSS</p>
+                <p class="card-text small">A faithful reproduction of the Netflix landing page with responsive hero banners, content rows, and sign-up form styling.</p>
+                <div class="mt-auto pt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-primary rounded-pill flex-grow-1">View Website</a>
+                  <a href="#" class="btn btn-outline-secondary rounded-pill" aria-label="View Netflix Clone source code">
+                    <i class="bi bi-code-slash"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: YouTube Clone -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden project-card">
+              <img
+                src="https://placehold.co/600x340/282828/ff0000?text=YouTube+Clone"
+                class="card-img-top project-img"
+                alt="Screenshot of YouTube homepage clone built with HTML and CSS"
+              >
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">YouTube Clone</h5>
+                <p class="card-text text-muted">Built with HTML and CSS</p>
+                <p class="card-text small">A responsive clone of the YouTube interface including the video grid, sidebar navigation, and search bar layout.</p>
+                <div class="mt-auto pt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-primary rounded-pill flex-grow-1">View Website</a>
+                  <a href="#" class="btn btn-outline-secondary rounded-pill" aria-label="View YouTube Clone source code">
+                    <i class="bi bi-code-slash"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Weather Dashboard -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden project-card">
+              <img
+                src="https://placehold.co/600x340/0f3460/e94560?text=Weather+App"
+                class="card-img-top project-img"
+                alt="Screenshot of Weather Dashboard application built with React and API integration"
+              >
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Weather Dashboard</h5>
+                <p class="card-text text-muted">Built with React and OpenWeather API</p>
+                <p class="card-text small">A dynamic weather application that fetches real-time data, displays 5-day forecasts, and features location-based search.</p>
+                <div class="mt-auto pt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-primary rounded-pill flex-grow-1">View Website</a>
+                  <a href="#" class="btn btn-outline-secondary rounded-pill" aria-label="View Weather Dashboard source code">
+                    <i class="bi bi-code-slash"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: Task Manager -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden project-card">
+              <img
+                src="https://placehold.co/600x340/16213e/0f3460?text=Task+Manager"
+                class="card-img-top project-img"
+                alt="Screenshot of Task Manager application built with Django and Python"
+              >
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">Task Manager</h5>
+                <p class="card-text text-muted">Built with Python and Django</p>
+                <p class="card-text small">A full-stack task management app with user authentication, CRUD operations, task categories, and deadline tracking.</p>
+                <div class="mt-auto pt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-primary rounded-pill flex-grow-1">View Website</a>
+                  <a href="#" class="btn btn-outline-secondary rounded-pill" aria-label="View Task Manager source code">
+                    <i class="bi bi-code-slash"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 6: E-Commerce Store -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden project-card">
+              <img
+                src="https://placehold.co/600x340/533483/e94560?text=E-Commerce+Store"
+                class="card-img-top project-img"
+                alt="Screenshot of E-Commerce Store built with Node.js and Express"
+              >
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold">E-Commerce Store</h5>
+                <p class="card-text text-muted">Built with Node.js and Express</p>
+                <p class="card-text small">A fully functional online store with product listings, shopping cart, checkout flow, and order management system.</p>
+                <div class="mt-auto pt-3 d-flex gap-2">
+                  <a href="#" class="btn btn-primary rounded-pill flex-grow-1">View Website</a>
+                  <a href="#" class="btn btn-outline-secondary rounded-pill" aria-label="View E-Commerce Store source code">
+                    <i class="bi bi-code-slash"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="contact-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="highlight-label">Get in Touch</span>
+          <h2 class="fw-bold mt-3">Let's Connect</h2>
+          <p class="text-muted mx-auto" style="max-width: 600px;">
+            Have a project in mind or just want to say hello? I'd love to hear from you.
+          </p>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="text-center mb-5">
+          <div class="d-flex justify-content-center gap-4">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Visit my Instagram profile">
+              <i class="bi bi-instagram fs-2"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Visit my GitHub profile">
+              <i class="bi bi-github fs-2"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Visit my LinkedIn profile">
+              <i class="bi bi-linkedin fs-2"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card shadow-sm border-0 rounded-4">
+              <div class="card-body p-4 p-lg-5">
+                <form action="#" method="POST">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="contact-email" class="form-label fw-semibold">Email Address</label>
+                      <input
+                        type="email"
+                        class="form-control rounded-pill"
+                        id="contact-email"
+                        name="email"
+                        placeholder="your@email.com"
+                        required
+                      >
+                    </div>
+                    <div class="col-md-6">
+                      <label for="contact-name" class="form-label fw-semibold">Name</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-pill"
+                        id="contact-name"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                      >
+                    </div>
+                    <div class="col-12">
+                      <label for="contact-subject" class="form-label fw-semibold">Subject</label>
+                      <input
+                        type="text"
+                        class="form-control rounded-pill"
+                        id="contact-subject"
+                        name="subject"
+                        placeholder="What's this about?"
+                        required
+                      >
+                    </div>
+                    <div class="col-12">
+                      <label for="contact-message" class="form-label fw-semibold">Message</label>
+                      <textarea
+                        class="form-control rounded-4"
+                        id="contact-message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tell me about your project..."
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="col-12 text-center mt-4">
+                      <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">
+                        <i class="bi bi-send me-2"></i>Send Message
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer py-4 text-center">
+    <div class="container">
+      <p class="mb-0">Developed by <strong>Muammar</strong> using Bootstrap, for portfolio purposes.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
